@@ -1,0 +1,44 @@
+{
+  "name": "gulp-ng-apimock",
+  "description": "Gulp plugin that provides the ability to use scenario based api mocking of angular apps",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mdasberg/gulp-ng-apimock",
+  "author": {
+    "name": "Frank Merema",
+    "email": "frankmerema@gmail.com"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdasberg/gulp-ng-apimock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdasberg/gulp-ng-apimock/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mdasberg/gulp-ng-apimock/blob/master/LICENSE"
+    }
+  ],
+  "main": "gulpfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ng-apimock": "^1.1.0"
+  },
+  "keywords": [
+    "gulpplugin",
+    "angular",
+    "api",
+    "mock",
+    "scenario",
+    "httpbackend"
+  ],
+  "devDependencies": {
+  }
+}
