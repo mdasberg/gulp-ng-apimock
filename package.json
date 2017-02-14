@@ -1,0 +1,47 @@
+{
+  "name": "gulp-ng-apimock",
+  "description": "Gulp plugin that wraps around ng-apimock which provides the ability to use scenario based api mocking for local development and protractor testing",
+  "version": "1.0.0",
+  "homepage": "https://mdasberg.github.io/gulp-ng-apimock",
+  "author": {
+    "name": "Mischa Dasberg",
+    "email": "mischa@dasberg.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdasberg/gulp-ng-apimock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdasberg/gulp-ng-apimock/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mdasberg/gulp-ng-apimock/blob/master/LICENSE-MIT"
+    }
+  ],
+  "files": [
+    "tasks/ngApimock.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "angular",
+    "api",
+    "mock",
+    "scenario",
+    "httpbackend"
+  ],
+  "dependencies": {
+    "ng-apimock": "^1.2.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "serve-static": "^1.11.2"
+  }
+}

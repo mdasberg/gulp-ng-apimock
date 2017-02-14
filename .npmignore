@@ -1,0 +1,20 @@
+#intellij
+.idea
+*.iml
+*.ipr
+*.iws
+
+#generated
+.tmp
+
+#npm
+node_modules
+.npmrc
+.npmignore
+yarn.lock
+
+#build
+.travis.yml
+
+# other
+.jshintrc
