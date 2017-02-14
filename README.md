@@ -65,6 +65,7 @@ gulp.task('connect', function() {
 ```
 
 When running browser-sync you can do add the following middleware block to your configuration
+
 ```js
 gulp.task('browser-sync', function() {
     var browserSync = require('browser-sync').create();
@@ -102,6 +103,7 @@ gulp.task('connect', function() {
 ```
 
 When running browser-sync you can do add the following staticServe block to your configuration
+
 ```js
 gulp.task('browser-sync', function() {
     var browserSync = require('browser-sync').create();
